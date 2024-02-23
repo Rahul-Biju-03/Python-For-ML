@@ -1,47 +1,47 @@
 # Report on Analysis of Feedback Data for Course Improvement
 
-## Problem Statement:
+## 1) Problem Statement:
 The aim of this project is to analyze feedback data collected from participants in various courses or training sessions to identify patterns, trends, and areas for improvement. The feedback data consists of ratings on different aspects such as content quality, training effectiveness, expertise of resource persons, and session organization, along with additional comments and suggestions provided by the participants.
 
-## Introduction:
+## 2) Introduction:
 In an educational institution or training program, gathering feedback from participants is crucial for assessing the effectiveness of the courses offered and understanding areas that require improvement. The feedback provides valuable insights into the quality of content, training methods, and overall organization of the sessions. Analyzing this feedback data can aid in making informed decisions to enhance the learning experience and satisfaction of the participants.
 
-## Dataset Details:
+## 3) Dataset Details:
 The dataset contains 174 rows (entries) and 12 columns (fields).
 Contains the following columns
 1) Timestamp ,2) Name of the Participant ,3) Email ID ,4) Branch ,5) Semester ,6) Recourse Person of the session ,7) Rating for the overall quality and relevance of the course content presented in this session ,8) Rating for the extent of effectiveness of the training methods and delivery style in helping understand the concepts presented ,9) Rating for the resource person's knowledge and expertise in the subject matter covered during this session ,10) Rating for the extent of relevance and applicability of the content covered in this session to real-world industry scenarios ,11) Rating for the overall organization of the session, including time management,clarity of instructions,and interactive elements ,12) Additional comments, suggestions, or feedback regarding the session.
 
-## Methodology
+## 4) Methodology
 
-### Data Collection:
+### a) Data Collection:
 The feedback data was gathered via Google Forms, where participants provided their responses. The dataset includes responses from participants, detailing their perceptions and suggestions regarding course content, effectiveness, and overall organization.
 
-### Data Wrangling
+### b) Data Wrangling
 
 The data wrangling process includes dropping irrelevant columns such as "Timestamp","Email ID" and "Please provide any additional comments, suggestions, or feedback you have regarding the session. Your insights are valuable and will help us enhance the overall learning experience." from the DataFrame and renaming the remaining columns to more descriptive names. This helps streamline the dataset by removing unnecessary information and organizing the relevant data in a more understandable format for further analysis. The renamed columns are "Name","Branch","Semester","Resourse Person","Content Quality","Effeciveness","Expertise","Relevance","Overall Organization".
 
-### Exploratory Data Analysis approach:
+### c) Exploratory Data Analysis approach:
 
-1. Frequency Calculation:
+#### 1. Frequency Calculation:
 Determining the occurrence of each unique value in the dataset, specifically focusing on the "Resource Person" and "Name" columns.
 
-2. Percentage Calculation:
+#### 2. Percentage Calculation:
 Approach: Converting the frequency counts into percentages to analyze the relative contribution of each resource person and participant.
 
-3. Rounding:
+#### 3. Rounding:
 Approach: Rounding the calculated percentages to improve readability and presentation.
 
-Justifications:
+#### Justifications:
 Relevance: Analyzing the distribution of feedback data across resource persons and participants is relevant as it sheds light on the engagement levels and participation patterns within the course.
 Insight Generation: Understanding how feedback data is distributed facilitates the generation of insights into trends, preferences, and potential areas for improvement. It helps in identifying effective resource persons and active participants.
 Decision Support: The insights derived from EDA serve as a basis for data-driven decision-making in course administration and improvement efforts. Course administrators can allocate resources more efficiently, tailor course content to meet participants' needs, and address any issues identified through the analysis.
 
-### ML approach:
+### d) ML approach:
 
 
-## EDA
+## 5) EDA
 
-1) Percentage analysis of Resource_person wise distribution of data.
+### + Percentage analysis of Resource_person wise distribution of data.
 
 Resourse Person
 Mrs. Akshara Sasidharan    34.48
@@ -49,7 +49,7 @@ Mrs. Veena A Kumar         31.03
 Dr. Anju Pratap            17.24
 Mrs. Gayathri J L          17.24
 
-2) Percentage analysis of Name wise distribution of data
+### * Percentage analysis of Name wise distribution of data
 
 Name
 Sidharth V Menon             4.02
@@ -94,13 +94,27 @@ Aaron Thomas Blessen         0.57
 Lisbeth Ajith                0.57
 Marianna Martin              0.57
 
-3) Visualisation
+### c) Visualisation
 
-Subplot regarding Faculty-wise distribution of data
-![Image Description](faculty wise distribution of data.jpg)
+#### * Subplot regarding Faculty-wise distribution of data
+<p align="left">
+  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/5abbbda1-2a27-4fce-b56d-111342f551b1" alt="[faculty wise distribution of data]">
+</p>
 
-Piechart regarding Resource person distribution of data
-![Image Description](resource person.jpg)
+#### * Piechart regarding Resource person distribution of data
+<p align="left">
+  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/864c76b4-ccb0-4da2-834a-39036d9ec940" alt="[resource person]">
+</p>
+
+
+![SUM 1](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/097e57e7-1483-43bd-a95d-7749e2794b32)
+![SUM 2](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/90891200-d6c5-4810-9aca-f56c5625f7b7)
+![SUM 3](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/8ca55cdb-9e9d-4af7-b1fa-76ef8d908e0c)
+![SUM 4](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/73dd325a-4563-4290-a799-f6b9fab7d32a)
+![SUM 5](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/324f14b9-8e4c-4850-a076-36bda62d84b0)
+![SUM 6](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/b62c9c30-a44f-4db9-8998-5844b7516afb)
+![SUM 7](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/c9dba098-2f2f-44d1-9cec-d71d37d03ade)
+
 
 
 
@@ -113,6 +127,15 @@ Piechart regarding Resource person distribution of data
 
 ![Image Description](visualisation.jpg)
 
+- Item 1
+  - Nested Item 1
+  - Nested Item 2
+- Item 2
+- Item 3
+
+- **Bold Item 1**
+- **Bold Item 2**
+- **Bold Item 3**
 
 
 
