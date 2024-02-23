@@ -96,24 +96,38 @@ Marianna Martin              0.57
 
 ### c) Visualisation
 
-#### * Subplot regarding Faculty-wise distribution of data
+ * Subplot regarding Faculty-wise distribution of data
 <p align="left">
-  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/5abbbda1-2a27-4fce-b56d-111342f551b1" alt="[faculty wise distribution of data]">
+  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/5abbbda1-2a27-4fce-b56d-111342f551b1" alt="[faculty wise distribution of data]" width="500">
 </p>
 
-#### * Piechart regarding Resource person distribution of data
+ * Piechart regarding Resource person distribution of data
 <p align="left">
-  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/864c76b4-ccb0-4da2-834a-39036d9ec940" alt="[resource person]">
+  <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/864c76b4-ccb0-4da2-834a-39036d9ec940" alt="[resource person]" width="500">
 </p>
 
 
-![SUM 1](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/097e57e7-1483-43bd-a95d-7749e2794b32)
-![SUM 2](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/90891200-d6c5-4810-9aca-f56c5625f7b7)
-![SUM 3](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/8ca55cdb-9e9d-4af7-b1fa-76ef8d908e0c)
-![SUM 4](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/73dd325a-4563-4290-a799-f6b9fab7d32a)
-![SUM 5](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/324f14b9-8e4c-4850-a076-36bda62d84b0)
-![SUM 6](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/b62c9c30-a44f-4db9-8998-5844b7516afb)
-![SUM 7](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/c9dba098-2f2f-44d1-9cec-d71d37d03ade)
+<div style="display: flex;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/f5494a6e-88df-4e9a-9e65-4bccf38bb588" alt="SUM 1" width="500" style="float:left;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/72ef6282-bbef-4c49-bc76-9e905d01ddd4" alt="SUM 2" width="500" style="float:right;">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/411818a6-1dd4-4ead-b8e3-da7419d33834" alt="SUM 3" width="500" style="float:left;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/e3d4cc49-3f79-4490-8c70-8e8cc9776f21" alt="SUM 4" width="500" style="float:right;">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/76eb6d4b-4182-4994-bac7-b986bd633db9" alt="SUM 5" width="500" style="float:left;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/f18482be-8d69-4f57-ae14-6a9b334e7ea8" alt="SUM 6" width="500" style="float:right;">
+</div>
+<div style="margin: 0 auto; width: 500px;">
+    <img src="https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/8f6f116a-912b-404f-977d-9a8f5c2994f1" alt="SUM 7" width="400">
+</div>
+
+
+
+
+
+
 
 
 
