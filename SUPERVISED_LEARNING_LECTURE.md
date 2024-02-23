@@ -169,3 +169,10 @@ soft voting takes the average value(average voting)
 hard voting is majority voting
 
 Bagging
+
+deployment 
+kubernotes
+docker
+
+frontend
+react
