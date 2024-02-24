@@ -1,1 +1,1 @@
-This directory contains information about Supervised Learning.
+This directory contains information about Linear Regression, Logistic Regression and Decision Tree.
