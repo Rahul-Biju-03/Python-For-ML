@@ -1,7 +1,7 @@
 # Report on Analysis of Feedback Data for Course Improvement
 
 ## 1. Problem Statement:
-The aim of this project is to analyze feedback data collected from participants in various courses or training sessions to identify patterns, trends, and areas for improvement. The feedback data consists of ratings on different aspects such as content quality, training effectiveness, expertise of resource persons, and session organization, along with additional comments and suggestions provided by the participants.
+The aim of this project is to analyze feedback data collected from Intel Certification course participants over various sessions to identify patterns, trends, and areas for improvement. The feedback data consists of ratings on different aspects such as content quality, training effectiveness, expertise of resource persons, and session organization, along with additional comments and suggestions provided by the participants.
 
 ## 2. Introduction:
 In an educational institution or training program, gathering feedback from participants is crucial for assessing the effectiveness of the courses offered and understanding areas that require improvement. The feedback provides valuable insights into the quality of content, training methods, and overall organization of the sessions. Analyzing this feedback data can aid in making informed decisions to enhance the learning experience and satisfaction of the participants.
