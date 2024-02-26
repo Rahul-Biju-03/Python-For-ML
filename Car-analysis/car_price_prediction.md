@@ -1,4 +1,4 @@
-# Report on Car price prediction
+ # Report on Car price prediction
 
 ## 5. Training Workflow
 
@@ -94,6 +94,11 @@ Create a new DataFrame using `enginesize` and `price`.
 x = new_df['enginesize']
 y = new_df['price']
 ```
+
+- **Comparing Engine Size and Fuel Type with Price using Scatter Plot**
+  
+![enginesize](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/fdc9f819-1d89-4cb7-93f8-63cbb080de6c)
+![fueltype](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/63a28142-2a69-414d-a14f-9b44d0694c0a)
 
 - **Splitting data**:
 
