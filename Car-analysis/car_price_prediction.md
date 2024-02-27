@@ -1,6 +1,62 @@
  # Report on Car price prediction
 
-## 5. Training Workflow
+## 1. Problem Statement:
+The goal of this project is to develop a predictive model to estimate the price of cars based on certain features. We aim to explore the relationship between various numerical attributes of cars such as engine size, horsepower, etc., and their prices. By building a linear regression model, we intend to predict car prices accurately, which could be valuable for both buyers and sellers in the automotive market.
+
+## 2. Introduction:
+Predicting car prices accurately is crucial for various stakeholders in the automotive industry, including dealerships, manufacturers, and consumers. Understanding the factors that influence car prices can help in making informed decisions regarding pricing strategies, purchasing, and investment.
+
+In this project, we utilize a dataset containing information about different cars, including their attributes like engine size, horsepower, and more, along with their corresponding prices. By analyzing this data and building a predictive model, we aim to provide insights into how these attributes contribute to the pricing of cars. This analysis can assist in better understanding market trends and predicting future pricing trends.
+
+## 3. Dataset Details:
+
+The provided dataset contains information about various cars, with each row representing a different car model.
+
+| Attribute         | Description                                                                                               |
+|-------------------|-----------------------------------------------------------------------------------------------------------|
+| ID                | An identifier for each car entry.                                                                         |
+| Symboling        | A rating assigned to each car indicating its risk level (e.g., insurance risk).                           |
+| Name              | The name or model of the car.                                                                             |
+| Fuel Types        | The type of fuel the car uses (e.g., gas, diesel).                                                        |
+| Aspiration        | The method of aspiration for the engine (e.g., std for standard, turbo for turbocharged).                  |
+| Door Numbers      | The number of doors the car has.                                                                         |
+| Car Body          | The body style of the car (e.g., sedan, convertible, hatchback).                                          |
+| Drive Wheels      | The type of wheels that receive power from the engine (e.g., fwd for front-wheel drive, rwd for rear-wheel drive). |
+| Engine Location   | The location of the engine in the car (e.g., front, rear).                                                |
+| Wheelbase         | The distance between the centers of the front and rear wheels.                                            |
+| Engine Size       | The volume of the engine displacement, often measured in liters or cubic centimeters.                     |
+| Fuel System       | The type of fuel delivery system used by the engine (e.g., mpfi, 2bbl).                                   |
+| Bore Ratio        | The diameter of each cylinder in the engine.                                                              |
+| Stroke            | The length of the piston stroke in the engine.                                                            |
+| Compression Ratio | The ratio of the volume of the combustion chamber when the piston is at the bottom of its stroke to the volume when it's at the top. |
+| Horsepower        | The power output of the engine.                                                                           |
+| Peak RPM          | The maximum revolutions per minute of the engine.                                                         |
+| City MPG          | The estimated miles per gallon (MPG) the car can achieve in city driving conditions.                      |
+| Highway MPG       | The estimated miles per gallon (MPG) the car can achieve on the highway.                                  |
+| Price             | The price of the car.                                                                                    |
+
+
+
+
+## 4. Methodology
+
+Data Loading and Inspection: Load the dataset into a DataFrame and inspect its structure, including the features and target variable.
+
+Data Preprocessing: Perform necessary data preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features if required.
+
+Exploratory Data Analysis (EDA): Explore the dataset to gain insights into the distribution of data, identify correlations between features and the target variable, and visualize patterns using plots and statistical summaries.
+
+Feature Selection: Select relevant features that have a significant correlation with the target variable (price) for model training.
+
+Model Training: Split the data into training and testing sets, then train a linear regression model using the selected features.
+
+Model Evaluation: Evaluate the trained model using various evaluation metrics such as MSE, MAE, R2, and RMSE to assess its performance in predicting car prices.
+
+Visualization: Visualize the actual vs. predicted prices using scatter plots and regression lines to understand the model's predictive accuracy and identify any discrepancies.
+
+Conclusion: Summarize the findings, including the model's performance, key insights from the analysis, and recommendations for further improvements or actions based on the results.
+
+## 5. Model training process
 
 - **Importing Required Libraries**:
 
@@ -144,3 +200,82 @@ model.fit(x_train.values.reshape(-1,1), y_train)
   - R2 score of 0.7825324721447274 indicates that the model explains approximately 78.25% of the variance in the target variable, which suggests a reasonably good fit.
  
 - **Plotting actual vs. predicted values**:
+
+![actual vs predicted](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/39cb2b13-e403-42bf-b0c6-ca8d136c5c4c)
+
+- **Plotting Regression model line**:
+  
+![regression model line](https://github.com/Rahul-Biju-03/Python-For-ML/assets/106422354/602c3da4-93d7-4660-8ddf-892447bf2cd1)
+
+- **Predicting prices based on engine size**:
+
+| Engine Size | Predicted Price |
+|-------------|-----------------|
+| 91          | 7339.335167318599  |
+| 161         | 18841.416787940445 |
+| 136         | 14733.530494861214 |
+| 61          | 2409.8716156235205 |
+| 109         | 10297.013298335645 |
+| 146         | 16376.685012092908 |
+| 92          | 7503.650619041768  |
+| 92          | 7503.650619041768  |
+| 181         | 22127.72582240383  |
+| 92          | 7503.650619041768  |
+| 164         | 19334.363143109953 |
+| 203         | 25742.665760313554 |
+| 70          | 3888.7106811320446 |
+| 134         | 14404.899591414876 |
+| 90          | 7175.019715595428  |
+| 146         | 16376.685012092908 |
+| 132         | 14076.268687968539 |
+| 136         | 14733.530494861214 |
+| 110         | 10461.328750058812 |
+| 92          | 7503.650619041768  |
+| 110         | 10461.328750058812 |
+| 120         | 12104.483267290507 |
+| 132         | 14076.268687968539 |
+| 146         | 16376.685012092908 |
+| 171         | 20484.57130517214  |
+| 97          | 8325.227877657613  |
+| 98          | 8489.543329380784  |
+| 120         | 12104.483267290507 |
+| 98          | 8489.543329380784  |
+| 97          | 8325.227877657613  |
+| 109         | 10297.013298335645 |
+| 109         | 10297.013298335645 |
+| 151         | 17198.262270708754 |
+| 122         | 12433.114170736844 |
+| 97          | 8325.227877657613  |
+| 209         | 26728.55847065257  |
+| 109         | 10297.013298335645 |
+| 121         | 12268.798719013677 |
+| 90          | 7175.019715595428  |
+| 304         | 42338.526384353645 |
+| 90          | 7175.019715595428  |
+
+## 6. Result
+
+After conducting an in-depth analysis and implementing a linear regression model, we have successfully developed a predictive model to estimate car prices based on engine size. Here are the key findings and results:
+
+Key Findings:
+Feature Importance: Engine size has been identified as the most influential feature in determining car prices, exhibiting the highest correlation coefficient with the target variable (price) among the numerical features considered in the dataset.
+
+Model Performance: The trained linear regression model demonstrates reasonable performance in predicting car prices. Evaluation metrics reveal that:
+
+Mean Squared Error (MSE) is approximately 16,835,544.04.
+Root Mean Squared Error (RMSE) is approximately 4,103.11.
+Mean Absolute Error (MAE) is approximately 3,195.03.
+R-squared (R2) score is approximately 0.78.
+These metrics indicate that the model captures a significant portion of the variance in the target variable and provides a satisfactory level of predictive accuracy.
+
+Prediction Insights: Despite the inherent variability in car prices, the model's predictions align well with the actual prices, as evidenced by the evaluation metrics and scatter plot visualization.
+
+## 7. Conclusion
+
+In conclusion, our analysis and model development have provided valuable insights into the pricing dynamics of cars, with a specific focus on the role of engine size in influencing car prices. By leveraging machine learning techniques, we have built a predictive model that effectively estimates car prices based on this crucial feature.
+
+The predictive model serves as a valuable tool for stakeholders in the automotive industry, enabling them to make informed decisions regarding pricing strategies, purchasing, and investment. Furthermore, the model's performance metrics indicate its reliability and utility in real-world applications.
+
+Moving forward, further refinements to the model, such as incorporating additional relevant features and exploring advanced regression techniques, could enhance its predictive capabilities and broaden its applicability in the automotive market.
+
+Overall, this project underscores the importance of data-driven approaches in understanding market trends and optimizing decision-making processes within the automotive industry.
