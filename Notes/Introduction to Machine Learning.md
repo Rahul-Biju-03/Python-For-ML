@@ -96,6 +96,28 @@
 -  Requires a lot of computing resources and time.
 
 ## Online learning
+- train the system incrementally
+- by feeding it data  either individually or in small groups called mini-batches.
+- Fast and cheap
+- Needs limited computing resources
+- Can train systems on huge datasets (out-of-core learning)
+- learning rate: how fast they should adapt to changing data
+- high learning rate: rapidly adapt to new data, but quickly forget the old data.
+- low learning rate:  learn more slowly, but it will also be less sensitive to noise in the new data or to outliers.
+- if bad data is fed to the system, the system’s performance will gradually decline.
+- To reduce this risk, you need to monitor your system closely and promptly switch learning off.
+  
+## Instance-based learning
+- learns the examples by heart, then
+- generalizes to new cases by using a similarity measure to compare them to the learned examples.
+
+## Model-based learning
+- build a model of examples and then use that model to make predictions.
+- Steps:
+  -  Define parameter values by feeding data to algorithm (Model fitting)
+  -  Performance measure: utility function (or fitness function) that measures how good your model is,a cost function that measures how bad it is typically used by 
+     Linear regression.
+  -  Model makes predictions.
 
 
 
